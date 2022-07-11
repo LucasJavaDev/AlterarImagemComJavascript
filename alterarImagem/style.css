@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/BMW1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 200px;
+    height: 65px;
+}
+
+#botao-header{
+    height: 50px;
+    width: 150px;
+    background-color: #343334;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#botao-header a{
+    text-decoration: none;
+    color: #fff;
+}
+#botao-header:hover{
+    background-color: transparent;
+    border: 3px solid #343334;
+}
+#botao-header a:hover{
+    color: #000;
+    font-weight: bold;
+}
+.conteudo{
+    margin-top: 10%;
+}
+.conteudo h2{
+    color: red;
+    font-size: 34px;
+}
+.conteudo h1{
+    font-size: 100px;
+    color: #222;
+   margin-top: -25px;
+}
+.conteudo p{
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+.conteudo h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.selecaoCores div{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.selecaoCores{
+    display: flex;
+    margin-top: 15px;
+}
+
+.selecaoCores #vermelho{
+    background-color: red;
+}
+.selecaoCores #azul{
+    background-color: blue;
+}
+.selecaoCores #preto{
+    background-color: black;
+}
+
+@media(max-width:750){
+    main{
+        display: block;
+    }
+    .conteudo{
+        margin-top: 80%;
+    }
+
+}
