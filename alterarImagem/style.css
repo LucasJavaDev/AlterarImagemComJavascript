@@ -93,12 +93,3 @@ nav{
     background-color: black;
 }
 
-@media(max-width:750){
-    main{
-        display: block;
-    }
-    .conteudo{
-        margin-top: 80%;
-    }
-
-}
